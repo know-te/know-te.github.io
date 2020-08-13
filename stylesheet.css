@@ -1,0 +1,153 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+header{
+  background-color:rgba(34,49,52,0.9);
+  height:65px;
+  width:100%;
+  position: fixed;
+  z-index: 10;
+}
+.h-left{
+  float:left;
+}
+.h-right{
+  float:right;
+  background-color:rgba(255,255,255,0.3);
+}
+.h-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.logo{
+  width:124px;
+  margin-top:20px;
+}
+.login{
+  margin:0 25px;
+  color:white;
+  line-height:65px;
+  display:block;
+}
+
+.top{
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.container{
+  width:1170px;
+  margin:0 auto;
+}
+.top h1{
+  font-size:45px;
+  letter-spacing:5px;
+  opacity:0.7;
+}
+.top p{
+  margin-bottom:15px;
+  opacity:0.7;
+}
+.btn{
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.btn:hover {
+  opacity: 1;
+}
+.new{
+  margin:15px 0;
+  background-color:#239b76;
+}
+.facebook{
+  background-color:#3b5998;
+  margin-right:10px;
+}
+.twitter{
+  background-color:#55acee;
+}
+
+.lesson-main{
+  text-align:center;
+  height:580px;
+  background-color:#f7f7f7;
+}
+.head{
+  padding-top:80px;
+  padding-bottom:50px;
+  color:#5f5d60;
+}
+.head h2{
+ font-weight:normal;
+}
+.lesson{
+  float:left;
+  width:25%;
+}
+.lesson-img{
+  position:relative;
+}
+.lesson-img p{
+  color:white;
+  top:44%;
+  width:100%;
+  position:absolute;
+}
+.lesson-text{
+  width:80%;
+  margin-top:15px;
+  font-size:13px;
+  color:#b3aeb5;
+  display:inline-block;
+}
+.message-area{
+  margin-bottom:80px;
+  text-align:center;
+}
+
+.start-message{
+  padding:15px 40px;
+  background-color:#5dca88;
+  opacity:0.8;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+.start-message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+footer{
+  padding:30px 0;
+  border-top:1px solid #eee;
+}
+footer img{
+  width:124px;
+}
+footer p{
+  font-size:12px;
+  color:#b3aeb5;
+}
